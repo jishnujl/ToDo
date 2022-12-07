@@ -5,7 +5,7 @@ const app = express()
 
 //connection
 //mongoose.set('useFindAndModify',false)
-mongoose.connect('mongodb://127.0.0.1:27017/todo', { useNewUrlParser: true }, () => {
+mongoose.connect('mongodb+srv://username:nqqnAJpXCnzbor86@cluster0.dzj4ry5.mongodb.net/todo', { useNewUrlParser: true }, () => {
     console.log("Connected to database...")
 
     app.listen(3000, () => {
